@@ -24,7 +24,7 @@ namespace Model
                 this.Email);
         }
 
-        public Student()
+        public void ResetValues()
         {
             this.FirstName = "";
             this.LastName = "";
