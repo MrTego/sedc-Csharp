@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,9 @@ namespace StudentApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HELLO");
+            Student newStudent = new Student();
+
+
         }
     }
 }
