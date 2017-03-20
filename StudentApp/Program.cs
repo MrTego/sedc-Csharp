@@ -19,7 +19,7 @@ namespace StudentApp
             newStudent.Email = "ristetegovski@gmail.com";
 
 
-            Console.WriteLine(newStudent.Printing());
+            Console.WriteLine(newStudent);
 
             Console.ReadLine();
         }

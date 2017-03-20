@@ -14,14 +14,19 @@ namespace Model
         public int Years { get; set; }
         public string Email { get; set; }
 
-        public  string  Printing()
+        //public  string  Printing()
+        //{
+        //    return String.Format("{0} {1} {2} {3} {4}",
+        //        this.FirstName,
+        //        this.LastName,
+        //        this.City,
+        //        this.Years,
+        //        this.Email);
+        //}
+
+        public override string ToString()
         {
-            return String.Format("{0} {1} {2} {3} {4}",
-                this.FirstName,
-                this.LastName,
-                this.City,
-                this.Years,
-                this.Email);
+            return $"Student info {FirstName} {LastName} {City} {Years} {Email}";
         }
 
         public void ResetValues()
